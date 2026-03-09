@@ -5,7 +5,8 @@ def greeting(name, age=28, color="red"):
     print(f"We hear you like the color {color.lower()}!")
 
 name = input('Enter your name: ')
-age = input('Enter your age: ')
+
+ = input('Enter your age: ')
 color = input('Enter color')
 greeting(name, 32, color)
 
