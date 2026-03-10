@@ -21,7 +21,7 @@ def extra():
     fahrenheit = ((temperature*9)/5) + 32
     print(fahrenheit)
 
-option = input("simple or extra calculator? ")
+option = input("simple or extra calculator? ").lower
 if option == 'extra':
     extra()
 elif option == 'simple':
