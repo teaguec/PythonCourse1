@@ -17,10 +17,21 @@ while i < 3:
             print("Game over")
 
 
-
-
-
 #Modification 1: number 1-100, tell user if guess is too high/low ,and let them have 5-10 guesses.
+
+while i < 10:
+    guess = int(input("Guess number: "))
+    if guess > number:
+        print("Too high")
+    elif guess < number:
+        print("too low")
+    else:
+        print("correct!")
+        i = 10
+    i+=1
+    if i == 10:
+        print("game over")
+
 # Tip:( remember you won’t see  print statements during execution, so If you want to see prints during whle loop, print to the input box (This is specific to this platform)
 # Three Loop Questions:
 #1. What do I want to repeat?
