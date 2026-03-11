@@ -13,7 +13,7 @@
 total_cost = 0.00
 total_drinks = 0
 while True:
-    name = input("Enter customer name")
+    name = input("Enter customer name, or type 'done' to finish")
     if name.lower() == "done":
         break
     else:
@@ -31,4 +31,4 @@ while True:
         else:
             print("warning: invalid drink")
 
-print(f"Your total number of drinks is {total_drinks}, your total cost is: {total_cost}")
+print(f"Your total number of drinks is {total_drinks}, your total cost is: £{total_cost:.2f}")
